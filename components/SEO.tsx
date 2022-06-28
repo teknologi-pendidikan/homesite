@@ -51,6 +51,11 @@ const CommonSEO = ({
         rel="canonical"
         href={canonicalUrl ? canonicalUrl : `${siteMetadata.siteUrl}${router.asPath}`}
       />
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7675866095389123"
+        crossOrigin="anonymous"
+      ></script>
     </Head>
   )
 }
